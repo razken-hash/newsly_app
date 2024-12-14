@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:news_app/core/screens/news_screen.dart';
 
 void main() {
   runApp(
@@ -12,7 +13,7 @@ class NewsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: NewsApp(),
+      home: NewsScreen(),
     );
   }
 }

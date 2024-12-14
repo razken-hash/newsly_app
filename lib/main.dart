@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/core/screens/news_screen.dart';
+import 'package:newsly_app/core/screens/news_screen.dart';
 
 void main() {
   runApp(
-    const NewsApp(),
+    const NewslyApp(),
   );
 }
 
-class NewsApp extends StatelessWidget {
-  const NewsApp({super.key});
+class NewslyApp extends StatelessWidget {
+  const NewslyApp({super.key});
 
   @override
   Widget build(BuildContext context) {

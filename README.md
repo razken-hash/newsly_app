@@ -1,4 +1,4 @@
-# news_app
+# newsly_app
 
 A new Flutter project.
 

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/core/screens/news_cards/important_news_card.dart';
-import 'package:news_app/core/screens/news_cards/normal_news_tile.dart';
+import 'package:newsly_app/core/screens/news_cards/important_news_card.dart';
+import 'package:newsly_app/core/screens/news_cards/normal_news_tile.dart';
 
 class NewsScreen extends StatelessWidget {
   const NewsScreen({super.key});
@@ -14,12 +14,11 @@ class NewsScreen extends StatelessWidget {
         title: const Text(
           "Welcome to NewsApp",
           style: TextStyle(
-            color: Colors.white,
-            fontSize: 18,
+            color: Colors.black,
+            fontSize: 20,
           ),
         ),
-        centerTitle: true,
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.grey.shade300,
       ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
